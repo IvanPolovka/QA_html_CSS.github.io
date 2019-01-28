@@ -1,0 +1,105 @@
+.main{
+	margin: 0% 5%;
+	width: 600px;
+	border: 3px solid #d3d3d3;
+}
+.header{
+	height: 38px;
+	background-color: #3d4f5b;
+	text-align: center;
+	padding-top: 22px;
+}
+.header span{
+	font: 15pt sans-serif;
+	color:#ffffff;
+}
+.container {
+  display: flex;
+  align-content: space-around;
+}
+
+.left_side{
+	padding: 0 5px;
+	display: block;
+	height: 484px;
+	width: 150px;
+	background: linear-gradient(to right, #424242,#6f6f6f);
+	}
+.MyPhoto{
+	margin: 20px;
+	height: 100px;
+	width: 100px;
+	border: 2px solid #d3d3d3;
+	border-radius: 20px;
+}
+.MyName{
+	margin: 5px;
+	text-align: center;
+	color: white;
+	font: 20pt sans-serif;
+	border-bottom: 2px solid #ffff00;
+}
+.lf_block{
+	padding: 6px 0;
+	color: white;
+	text-align: center;
+}
+.lf_block h3{
+	text-decoration: underline;
+}
+.yellow{
+	background-color: #ffa500;
+	width: 100px;
+	font: 7pt sans-serif;
+	margin: 3px;
+	border-radius: 3px;
+}
+.blue{
+	background-color: #0174df;
+	width: 70px;
+	font: 7pt sans-serif;
+	margin: 3px;
+	border-radius: 3px;
+}
+.green{
+	background-color: #008000;
+	width: 130px;
+	font: 7pt sans-serif;
+	margin: 3px;
+	border-radius: 3px;
+}
+.lf_block li{
+	text-align: left;
+}
+.lf_block a{
+	color: #00bfff;
+}
+
+.right_side{
+	padding: 0 10px 0 5px;
+	display: block;
+	height: 484px;
+	width:450;
+	background-color:#ffffff;
+	color: #084b8a;
+}
+.rs_block {
+	width: 400px;
+	height: 126px;
+	border-bottom: 2px solid #0080ff;
+	font: 14px sans-serif;
+}
+.big{
+	font-weight: bolder;
+}
+
+.rs_block li{
+	list-style: none;
+	margin: 7px 0;
+}
+.rs_block ul li::before{
+	content: "- ";
+}
+.rs_block ul {
+	padding-left: 0;
+}
